@@ -1,0 +1,64 @@
+:root {
+  --default-font-size: 1rem;
+  --color-green: green;
+  --color-blue: blue;
+  --color-red: red;
+  --color-transparent: transparent;
+  --border-color-green: green;
+  --border-color-darkred: darkred;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid var(--border-color-darkred);
+  background-color: white;
+}
+
+.main-box {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  color: var(--color-green);
+  text-decoration: underline blue;
+  color: var(--color-green);
+  border: 1px solid var(--border-color-transparent);
+  font-size: calc(20px, 16rem);
+}
+
+.sub-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.sub-boxes .sub-box {
+  width: 23%;
+  padding: 20px;
+  color: var(--color-blue);
+  border: 1px solid var(--border-color-green);
+  font-size: calc(20px, 16rem);
+}
+.sub-boxes .sub-box-b, .sub-boxes .sub-box-d {
+  color: var(--color-red);
+  border: 1px solid var(--border-color-green);
+  font-size: calc(20px, 16rem);
+}
+.sub-boxes .sub-box-a, .sub-boxes .sub-box-c {
+  color: var(--color-blue);
+  border: 1px solid var(--border-color-green);
+  font-size: calc(20px, 16rem);
+}
+
+.bottom-box {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid var(--color-blue);
+  background-color: white;
+  color: var(--color-green);
+  font-size: 24px;
+  font-size: calc(24, 16rem);
+}
+
+/*# sourceMappingURL=FunctionsModules.css.map */
