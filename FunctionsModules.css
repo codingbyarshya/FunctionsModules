@@ -7,7 +7,10 @@
   --border-color-green: green;
   --border-color-darkred: darkred;
 }
-
+.element {
+  height: 200px;
+  width: 3200px;
+}
 .container {
   width: 90%;
   margin: 0 auto;
