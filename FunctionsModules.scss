@@ -7,6 +7,10 @@
   --border-color-green: green;
   --border-color-darkred: darkred;
 }
+@function aspect-ratio-width($aspect-ratio, $height) {
+  $width: $height * $aspect-ratio;
+  @return $width;
+}
 @mixin rem($value) {
   font-size: calc(#{$value , 16}rem);
 }
